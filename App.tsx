@@ -25,12 +25,13 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import Wapp from './Wapp';
+import Calculadora from './Calculadora';
 
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
 
   return (
-    <Wapp />
+    <Calculadora />
   );
 }
 
